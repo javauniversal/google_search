@@ -1,3 +1,62 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="23dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    
+    <ImageView
+        android:id="@+id/imgDetailBook"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleBookDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="dfsdfdsfdsfdf" />
+
+        <TextView
+            android:id="@+id/subtitleDetailBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="dfsdfdsfdsfdf" />
+
+        <TextView
+            android:id="@+id/isbn13DetailBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="dfsdfdsfdsfdf" />
+
+        <TextView
+            android:id="@+id/priceDetailBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:text="dfsdfdsfdsfdf" />
+
+    </LinearLayout>
+
 </LinearLayout>
